@@ -1,40 +1,37 @@
-### **Ασύρματος Έλεγχος RGB LED Strip**
+### **Wireless Control of RGB LED Strip**
 
-### Εισαγωγή
-Καλώς ήρθατε στην παρουσίαση του έργου μου, το οποίο συνδυάζει ηλεκτρονικά και προγραμματισμό για τον ασύρματο έλεγχο μιας RGB LED strip. Το έργο περιλαμβάνει τη χρήση ενός μικροεπεξεργαστή ESP32, καθώς και την ανάπτυξη ενός server με Node.js και client site για επιλογή χρώματος μέσω ενός φιλικού περιβάλλοντος χρήστη.
+### Introduction
+Welcome to the presentation of my project, which combines electronics and programming for the wireless control of an RGB LED strip. The project involves using an ESP32 microcontroller, as well as developing a server with Node.js and a client site for color selection through a user-friendly interface.
 
-### Στόχοι του Έργου
-- **Κατανόηση Βασικών Αρχών Ηλεκτρονικών**: Σύνδεση και έλεγχος μιας RGB LED strip μέσω του ολοκληρωμένου UNL2803 και του ESP32.
-- **Προγραμματισμός και Δικτύωση**: Ανάπτυξη ενός διακομιστή με Node.js με JavaScript, socket.io, iro.js, speech-commands.js  για τον έλεγχο της LED strip μέσω φωνητικών εντολών και επιλογής χρώματος.
-- **Ασύρματη Λειτουργία**: Εξασφάλιση ασύρματης σύνδεσης μέσω του τοπικού δικτύου για εύκολη πρόσβαση και έλεγχο.
+### Project Goals
+- **Understanding Basic Electronics Principles**: Connecting and controlling an RGB LED strip via the UNL2803 integrated circuit and the ESP32.
+- **Programming and Networking**: Developing a server with Node.js using JavaScript, socket.io, iro.js, and speech-commands.js for controlling the LED strip through voice commands and color selection.
+- **Wireless Operation**: Ensuring wireless connectivity via the local network for easy access and control.
 
-### Δομή του Έργου
-1. **Ηλεκτρονικά Στοιχεία**
-   - **RGB LED Strip**: Σύνδεση της LED strip με το ολοκληρωμένο UNL2803.
-   - **ESP32**: Προγραμματισμός του ESP32 για τον έλεγχο της LED strip μέσω PWM σημάτων.
+### Project Structure
+1. **Electronic Components**
+   - **RGB LED Strip**: Connecting the LED strip to the UNL2803 integrated circuit.
+   - **ESP32**: Programming the ESP32 to control the LED strip via PWM signals.
 
 ![schematic](./schematic/schem.png "schematic")
 
+2. **Server Programming**
+   - **Node.js**: Developing the server to process voice commands and send instructions to the ESP32.
 
-2. **Προγραμματισμός Διακομιστή**
-   - **Node.js**: Ανάπτυξη του διακομιστή για την επεξεργασία φωνητικών εντολών και την αποστολή εντολών στον ESP32.
+3. **User Interface (UI)**
+   - **Color Picker**: Creating a mobile-friendly user interface for color selection.
+   - **Wireless Connection**: Connecting the system to the local network for wireless control.
 
-3. **Διεπαφή Χρήστη (UI)**
-   - **Color Picker**: Δημιουργία ενός φιλικού προς κινητά περιβάλλοντος χρήστη για την επιλογή χρώματος.
-   - **Ασύρματη Σύνδεση**: Σύνδεση του συστήματος στο τοπικό δίκτυο για ασύρματο έλεγχο.
+- **Online Resources**: Using online platforms and courses for additional material.
 
-- **Online Πηγές**: Χρήση διαδικτυακών πλατφορμών και μαθημάτων για επιπλέον υλικό.
-
-### Συμπέρασμα
-Το έργο αυτό προσφέρει μια ολοκληρωμένη εκπαίδευση στις βασικές αρχές των ηλεκτρονικών και του προγραμματισμού, δίνοντας στους μαθητές την ευκαιρία να εφαρμόσουν τις γνώσεις τους σε πραγματικά σενάρια. Ελπίζουμε να απολαύσετε τo εργο και να μάθετε πολλά!
+### Conclusion
+This project offers comprehensive training in the basic principles of electronics and programming, giving students the opportunity to apply their knowledge in real-world scenarios. We hope you enjoy the project and learn a lot!
 
 ---
 
 ## How to Build and Run
-### Download Dependencys
+### Download Dependencies
 `$ npm install`
 
-### Run server
+### Run Server
 `$ npm start`
-
-

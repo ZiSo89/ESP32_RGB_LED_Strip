@@ -1,0 +1,31 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"> </script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/speech-commands@0.5.4/dist/speech-commands.min.js"
+    integrity="sha256-A+O1U65KMm+FRHZ3KD6c+G4gyjGhKWz++0oHXxk2an0=" crossorigin="anonymous"></script>
+
+  <style>
+    #label-container {
+      font-size: x-large;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 10px;
+      color: white;
+    }
+  </style>
+
+</head>
+
+<body>
+  <script src="speech_cmd_script.js"></script>
+  <div id="label-container"></div>
+</body>
+
+</html>
